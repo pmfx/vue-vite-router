@@ -4,7 +4,7 @@ const routes = [
   {
     path: "",
     name: "home",
-    component: () => import("@/views/Home.vue"),
+    component: () => import("@/views/HomePage.vue"),
     meta: {
       title: "Home Page",
       metaTags: [
@@ -18,7 +18,7 @@ const routes = [
   {
     path: "/about",
     name: "about",
-    component: () => import("@/views/About.vue"),
+    component: () => import("@/views/AboutPage.vue"),
     meta: {
       title: "About Page",
       metaTags: [
